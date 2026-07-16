@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asks The Moon - Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="Images/Logo AsksTheMoon.webp" alt="Logo de Asks The Moon" />
+            </div>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="productos.html">Productos</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <button class="btn-contacto">📞 Llamar</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Contáctanos en <span>Asks The Moon</span></h1>
+            <p class="tagline">Estamos listos para ayudarte con tu proyecto y tus consultas.</p>
+            <p>Déjanos tus datos y un breve mensaje. Nuestro equipo te responderá lo antes posible.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="section-title">
+            <h2>Formulario de contacto <small>Conecta con nuestro equipo</small></h2>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h3>Información</h3>
+                <p>Dirección: Av. Principal 123, Huancayo, Perú</p>
+                <p>Teléfono: +51 987 654 321</p>
+                <p>Email: contacto@asksthemoon.pe</p>
+                <p>Horario: Lun - Vie, 8:00 - 18:00</p>
+            </div>
+            <form class="contact-form" action="#" method="post">
+                <label for="name">Nombre completo</label>
+                <input id="name" type="text" name="name" placeholder="Ingresa tu nombre" required />
+
+                <label for="email">Correo electrónico</label>
+                <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required />
+
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="6" placeholder="Cuéntanos sobre tu proyecto" required></textarea>
+
+                <button type="submit" class="btn-contacto">Enviar mensaje</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Asks The Moon E.I.R.L. — Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <button class="chat-flotante" onclick="alert('¡Hola! ¿Cómo podemos ayudarte?')">
+        <span class="burbuja">💬</span>
+        <span>Abrir chat</span>
+    </button>
+</body>
+</html>
